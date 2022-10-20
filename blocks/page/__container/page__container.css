@@ -1,4 +1,23 @@
 .page__container {
   margin: 0 auto;
-  width: 91.72%;
+  max-width: 1185px;
+}
+
+@media (min-width: 896px) {
+  .page__container {
+    padding: 28px 48px 24px;
+  }
+}
+
+@media (min-width: 896px) {
+  .page__container {
+    padding: 28px 24px 24px;
+  }
+}
+
+
+@media (max-width: 895px) {
+  .page__container {
+    padding: 16px;
+  }
 }

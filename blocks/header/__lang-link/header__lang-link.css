@@ -6,9 +6,15 @@
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  transition: text-decoration .2s linear;
+  transition: opacity .2s linear;
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
+  opacity: .5;
+}
+
+@media (max-width: 530px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
 }
