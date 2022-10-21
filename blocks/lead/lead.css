@@ -3,4 +3,5 @@
   flex-direction: column;
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
+  box-sizing: border-box;
 }

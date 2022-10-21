@@ -1,0 +1,19 @@
+.content__intro {
+  max-width: 690px;
+  min-height: 429px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 568px) {
+  .content__intro {
+    max-width: 720px;
+    min-height: 429px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content__intro {
+    max-width: 288px;
+    min-height: 754px;
+  }
+}
