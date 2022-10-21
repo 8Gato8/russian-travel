@@ -1,16 +1,16 @@
-.wrapper {
+.header-and-photo-grid-wrapper {
   padding: 0 48px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 896px) {
-  .wrapper {
+@media screen and (max-width: 820px) {
+  .header-and-photo-grid-wrapper {
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 380px) {
-  .wrapper {
+  .header-and-photo-grid-wrapper {
     padding: 0 16px;
   }
 }
