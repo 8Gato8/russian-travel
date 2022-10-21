@@ -1,18 +1,5 @@
 .page__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-  .page__header {
-    margin-bottom: 48px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .page__header {
-    margin-bottom: 56px;
-  }
+  margin: auto;
+  max-width: 1184px;
+  min-height: 52px;
 }

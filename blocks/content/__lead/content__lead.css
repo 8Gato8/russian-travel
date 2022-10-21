@@ -1,4 +1,11 @@
 .content__lead {
-  margin: 0 auto;
-  max-width: 985px;
+  max-width: 984px;
+  align-items: center;
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 1154px) {
+  .content__lead {
+    margin-top: 48px;
+  }
 }
