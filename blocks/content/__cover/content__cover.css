@@ -1,0 +1,23 @@
+.content__cover {
+  position: relative;
+  z-index: 0;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1152px) {
+  .content__cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .content__cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content__cover {
+    min-height: 200px;
+  }
+}

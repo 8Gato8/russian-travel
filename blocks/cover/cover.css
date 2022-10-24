@@ -1,0 +1,17 @@
+.cover {
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  font-style: normal;
+  color: #fff;
+  background: url('../../images/cover-trains.jpg') center/cover no-repeat;
+}
+
+@media screen and (max-width: 544px) {
+  .cover {
+    row-gap: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  grid-area: paragraphs;
+}
+
+@media screen and (max-width: 655px) {
+  .place__paragraphs {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

@@ -26,5 +26,6 @@
     gap: 12px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(autofill, 1fr);
+    /*сверху сомнительная по нужности строчка кода*/
   }
 }
