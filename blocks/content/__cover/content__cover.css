@@ -1,6 +1,4 @@
 .content__cover {
-  position: relative;
-  z-index: 0;
   width: calc(100% - (48px * 2));
   margin: 0 auto;
   min-height: 740px;

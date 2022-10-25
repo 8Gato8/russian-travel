@@ -9,24 +9,12 @@
   margin-bottom: 32px;
 }
 
-/* @media screen and (max-width: 778px) {
+@media screen and (max-width: 698px) {
   .lead__title {
     font-size: 80px;
     line-height: 1.1;
   }
-} */
-
-@media screen and (max-width: 698px) {
-  .lead__title {
-    font-size: 80px;
-  }
 }
-
-/* @media screen and (max-width: 600px) {
-  .lead__title {
-    font-size: 60px;
-  }
-} */
 
 @media screen and (max-width: 578px) {
   .lead__title {
@@ -41,7 +29,6 @@
   }
 }
 
-
 @media screen and (max-width: 350px) {
   .lead__title {
     font-size: 40px;
@@ -49,9 +36,3 @@
     max-width: 288px;
   }
 }
-
-/* @media screen and (max-width: 320px) {
-  .lead__title {
-
-  }
-} */
