@@ -1,11 +1,18 @@
-@media screen and (max-width: 767px) {
-  .footer__list {
-    min-height: 310px;
+.page__footer {
+  max-width: calc(100% - (48px * 2));
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 868px) {
+  .page__footer {
+    max-width: calc(100% - (24px * 2));
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__footer {
+    min-height: 310px;
     max-width: 186px;
+    margin: 0 0 0 16px;
   }
 }

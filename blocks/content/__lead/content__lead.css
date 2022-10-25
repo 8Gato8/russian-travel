@@ -1,4 +1,23 @@
 .content__lead {
-  max-width: 984px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1152px) {
+  .content__lead {
+    max-width: calc(100% - (48px * 2));
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .content__lead {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 420px) {
+  .content__lead {
+    margin: 0;
+  }
+}
+ */
