@@ -9,6 +9,9 @@
     "title website"
     "image paragraphs";
   gap: 48px 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 1152px) {

@@ -2,4 +2,7 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
 }

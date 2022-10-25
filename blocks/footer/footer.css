@@ -5,6 +5,9 @@
   font-style: normal;
   font-weight: 400;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 767px) {
