@@ -1,18 +1,17 @@
 .page__footer {
-  padding: 0 48px;
+  max-width: calc(100% - (48px * 2));
   margin: 0 auto;
 }
 
 @media screen and (max-width: 868px) {
   .page__footer {
-    padding: 0 24px;
+    max-width: calc(100% - (24px * 2));
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__footer {
     max-width: 186px;
-    padding: 0 0 0 16px;
-    margin: 0;
+    margin-left: 16px;
   }
 }
