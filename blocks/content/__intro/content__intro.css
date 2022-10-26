@@ -1,15 +1,24 @@
 .content__intro {
-  max-width: 690px;
+  margin: 0 auto 92px;
+  max-width: 984px;
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 1080px) {
   .content__intro {
-    max-width: 720px;
+    max-width: calc(100% - (48px * 2));
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 820px) {
   .content__intro {
-    max-width: 288px;
+    max-width: calc(100% - (24px * 2));
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content__intro {
+    max-width: calc(100% - (16px * 2));
+    margin-bottom: 64px;
   }
 }

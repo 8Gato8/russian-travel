@@ -29,7 +29,6 @@
 
 /*intro*/
 
-@import url(../blocks/intro-wrapper/intro-wrapper.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/content/__intro/content__intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
