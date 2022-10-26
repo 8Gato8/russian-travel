@@ -8,7 +8,6 @@
   row-gap: 32px;
   position: relative;
   z-index: 0;
-  height: 100%;
 }
 
 .cover__item::before {

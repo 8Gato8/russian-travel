@@ -1,19 +1,15 @@
 .content__intro {
   max-width: 690px;
-  min-height: 429px;
 }
 
 @media screen and (max-width: 868px) {
   .content__intro {
     max-width: 720px;
-    min-height: 429px;
   }
 }
-
 
 @media screen and (max-width: 360px) {
   .content__intro {
     max-width: 288px;
-    min-height: 754px;
   }
 }

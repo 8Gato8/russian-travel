@@ -1,18 +1,23 @@
-.content__photo-grid {
+.intro-wrapper {
   margin: 0 auto 92px;
   padding: 0 48px;
+  max-width: 984px;
 }
 
+@media screen and (max-width: 1152px) {
+  .content__lead {
+    margin-bottom: 88px;
+  }
+}
 
 @media screen and (max-width: 820px) {
-  .content__photo-grid {
-    margin-bottom: 88px;
+  .intro-wrapper {
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .content__photo-grid {
+  .intro-wrapper {
     margin-bottom: 64px;
     padding: 0 16px;
   }

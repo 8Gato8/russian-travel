@@ -1,4 +1,5 @@
 .cover {
+  display: grid;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   background: url('../../images/cover-trains.jpg') center/cover no-repeat;

@@ -1,7 +1,6 @@
 .page__header {
-  margin: 0 auto;
-  max-width: calc(100% - (48px * 2));
-  margin-bottom: 56px;
+  margin: 0 auto 56px;
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 1152px) {
@@ -12,12 +11,12 @@
 
 @media screen and (max-width: 820px) {
   .page__header {
-    max-width: calc(100% - (24px * 2));
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .page__header {
-    max-width: calc(100% - (16px * 2));
+    padding: 0 16px;
   }
 }

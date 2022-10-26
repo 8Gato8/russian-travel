@@ -20,3 +20,5 @@
 6. Media queries
 7. Figma
 
+Ссылка проекта на GitHub Pages: https://8gato8.github.io/russian-travel/
+
