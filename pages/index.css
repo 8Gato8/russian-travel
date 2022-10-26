@@ -20,6 +20,9 @@
 /*content*/
 
 @import url(../blocks/page/__content/page__content.css);
+
+/*lead*/
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/content/__lead/content__lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
