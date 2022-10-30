@@ -1,18 +1,16 @@
 .content__photo-grid {
-  margin: 0 auto 92px;
+  margin: 0 auto;
   max-width: calc(100% - (48px * 2));
 }
 
 @media screen and (max-width: 820px) {
   .content__photo-grid {
     max-width: calc(100% - (24px * 2));
-    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .content__photo-grid {
-    margin-bottom: 64px;
     max-width: calc(100% - (16px * 2));
   }
 }
