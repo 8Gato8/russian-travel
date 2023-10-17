@@ -3,7 +3,14 @@
 Этот проект является учебным и главная цель его выполнения - закрепление навыков верстки.
 
 ## [Демонстрация сайта](https://8gato8.github.io/russian-travel/)
-![Превью](./images/russian-travel.jpg)
+
+</br>
+
+<div align="center">
+  <img src="./images/russian-travel.jpg">
+</div>
+
+</br>
 
 **Функционал:**
 
